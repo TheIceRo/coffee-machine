@@ -1,0 +1,20 @@
+{
+  "name": "arc-interface",
+  "version": "1.0.0",
+  "description": "cpu usage monitor made in electron",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^4.0.4",
+    "electron-prompt": "^1.3.0",
+    "os-utils": "0.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "me",
+  "license": "MIT"
+}

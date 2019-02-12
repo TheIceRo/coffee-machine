@@ -1,0 +1,66 @@
+[
+  {
+    "name": "HTML",
+    "tips": [
+      {
+        "title": "Watch your language!",
+        "text": "The linter will give you some errors if you don't have the language set in the head."
+      },
+      {
+        "title": "tt",
+        "text": "test"
+      },
+      {
+        "title": "Title",
+        "text": "text"
+      },
+      {
+        "title": "Title",
+        "text": "text"
+      }
+    ]
+  },
+  {
+    "name": "CSS",
+    "tips": [
+      {
+        "title": "TipTest",
+        "text": "TipTestText"
+      },
+      {
+        "title": "TipTest2",
+        "text": "TipTestText2"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "tips": [
+      {
+        "title": "ES6 is nice",
+        "text": "If you're building an ES6 app you're not required to use ';' at the end of lines of code."
+      },
+      {
+        "title": "ES5 is weird",
+        "text": "If you're stuck in ES5 and making a for loop that adds event listeners, you must make it using foreach rather than for. In ES6 this is solved by using let instead of var."
+      }
+    ]
+  },
+  {
+    "name": "Unity C#",
+    "tips": [
+      {
+        "title": "Scriptable objects",
+        "text": "Use scriptable objects for items or anything that's supposed to be easily customizable"
+      },
+      {
+        "title": "TipTest2",
+        "text": "TipTestText2"
+      },
+      {
+        "title": "Title",
+        "text": "text"
+      }
+    ]
+  }
+]

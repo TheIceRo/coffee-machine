@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Visual Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="editor.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="tips-editor.js"></script>
+</head>
+<body>
+
+    <div class="clonables hidden">
+            <button class="button hidden">HTML</button>
+    
+            <div class="tip hidden">
+                <p class="tip-title">Tip</p>
+                <p class="tip-text">Select a topic to check out some tips</p>
+            </div>
+    
+    </div>
+
+    <div class="title-bar">
+        <i class="material-icons" id="refresh">loop</i>
+        <a class="title" id="titlebar-title">Edit</a>
+        <i class="material-icons" id="close">clear</i>
+    </div>
+    <h2 id="topic-title">Topics</h2> 
+
+    <div class="topic-list">
+
+    </div>
+    <button class="material-icons button" id="add-topic">add</button>
+
+    <div class="tips-list" id="tip-list">
+
+    </div>
+    <button class="material-icons button" id="add-tip">add</button>
+</body>
+</html>

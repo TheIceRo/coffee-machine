@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coffee Machine</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="tips-viewer.js"></script>
+</head>
+<body>
+
+    <div class="clonables hidden">
+        <button class="button hidden">HTML</button>
+
+        <div class="tip hidden">
+            <p class="tip-title">Tip</p>
+            <p class="tip-text">Select a topic to check out some tips</p>
+        </div>
+    </div>
+
+    <div class="title-bar">
+        <i class="material-icons" id="refresh">loop</i>
+        <i class="material-icons toggle" id="cappuccino-toggle">brightness_1</i>
+        <i class="material-icons title" id="titlebar-title">local_cafe</i>
+        <i class="material-icons" id="close">clear</i>
+        <i class="material-icons" id="maximize">crop_free</i>
+        <i class="material-icons" id="minimize">remove</i>
+    </div>
+
+    <div id="debug-data" class="hidden">
+        <h2>Debug Mode</h2>
+        <h3 id="cpu-data">CPU Data</h2>
+        <h3 id="cpu-percentage">CPU%</h3>
+    </div>
+    
+    <h2 id="topic-title" class="finish">Topics</h2>
+
+    <div class="topic-list">
+
+    </div>
+
+    <div class="tips-list" id="tip-list">
+        <div class="tip">
+            <p class="tip-title">Tip</p>
+            <p class="tip-text">Select a topic to check out some tips.</p>
+        </div>
+        <div class="tip">
+                <p class="tip-title">Editing</p>
+                <p class="tip-text">Click the coffee logo on the title-bar to start editing the tips.</p>
+        </div>
+    </div>
+</body>
+</html>
