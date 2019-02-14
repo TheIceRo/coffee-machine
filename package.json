@@ -1,7 +1,7 @@
 {
-  "name": "arc-interface",
+  "name": "Coffee Machine",
   "version": "1.0.0",
-  "description": "cpu usage monitor made in electron",
+  "description": "",
   "main": "main.js",
   "dependencies": {
     "electron": "^4.0.4",
@@ -15,6 +15,6 @@
   "keywords": [
     "electron"
   ],
-  "author": "me",
+  "author": "IceRo",
   "license": "MIT"
 }
